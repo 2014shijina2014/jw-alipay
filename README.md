@@ -36,17 +36,17 @@ Jw-alipay （捷微支付窗平台）开源免费支付窗管理平台
 
 	
 
-【1】☆快捷启动方式：
+	☆快捷启动方式：
 		第一步：创建Mysql数据库jw-alipay，采用UTF-8编码，执行数据库脚本
 		第二步：双击运行bin\run-tomcat7.bat，
 				启动Web服务器（第一次运行，需要下载依赖jar包，请耐心等待）。
 		第三步：项目访问地址
 				http://localhost/jeecg-p3-web
 				
-【2】☆开发准备：
+	☆开发准备：
 		1.标准开发工具：eclipse + jdk7 + tomcat7 + mysql
 		2.项目为maven工程，采用maven方式导入eclipse等IDE开发工具		
-     ☆Eclipse运行方式：
+    ☆Eclipse运行方式：
 		第一步：创建Mysql数据库jw-alipay，采用UTF-8编码，执行对应数据库脚本
 		第二步：采用maven方式启动项目 (jeecg-p3-web)
 				项目右建->debug as->debug configurations->选中jeecg-p3-web项目->输入命令：tomcat:run
