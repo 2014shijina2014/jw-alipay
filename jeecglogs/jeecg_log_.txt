@@ -1,0 +1,18 @@
+[INFO][2016-11-17 15:39:10,715][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.jeecg.core.biz.dao.TSOperationDao }
+[INFO][2016-11-17 15:39:10,719][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.jeecg.core.biz.mutiLang.dao.P3MutiLangDao }
+[INFO][2016-11-17 15:39:10,721][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.jeecg.core.biz.tag.select.dict.dao.TSTypeDao }
+[INFO][2016-11-17 15:39:10,724][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.jeecg.core.biz.tag.select.table.dao.CustomTableDao }
+[INFO][2016-11-17 15:39:10,726][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.jeecg.alipay.account.dao.AlipayAccountDao }
+[INFO][2016-11-17 15:39:10,730][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.jeecg.alipay.account.dao.AlipayMenuDao }
+[INFO][2016-11-17 15:39:10,732][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.jeecg.alipay.base.dao.AlipayAutoresponseDao }
+[INFO][2016-11-17 15:39:10,735][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.jeecg.alipay.base.dao.AlipayAutoresponseDefaultDao }
+[INFO][2016-11-17 15:39:10,739][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.jeecg.alipay.base.dao.AlipayGzentityDao }
+[INFO][2016-11-17 15:39:10,742][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.jeecg.alipay.base.dao.AlipayGzuserinfoDao }
+[INFO][2016-11-17 15:39:10,746][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.jeecg.alipay.base.dao.AlipayMessagelogDao }
+[INFO][2016-11-17 15:39:10,748][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.jeecg.alipay.base.dao.AlipayReceivetextContentDao }
+[INFO][2016-11-17 15:39:10,752][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.jeecg.alipay.base.dao.AlipayReceivetextDao }
+[INFO][2016-11-17 15:39:10,755][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.jeecg.alipay.sucai.dao.AlipayNewsitemDao }
+[INFO][2016-11-17 15:39:10,758][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.jeecg.alipay.sucai.dao.AlipayNewstemplateDao }
+[INFO][2016-11-17 15:39:10,761][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.jeecg.alipay.sucai.dao.AlipayTexttemplateDao }
+[ERROR][2016-11-17 15:39:11,287][com.alibaba.druid.pool.DruidAbstractDataSource]maxIdle is deprecated
+[INFO][2016-11-17 15:39:11,379][com.alibaba.druid.pool.DruidDataSource]{dataSource-1} inited
