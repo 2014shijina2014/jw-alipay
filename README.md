@@ -7,14 +7,14 @@ Jw-alipay （捷微支付窗平台）开源免费支付窗管理平台
 
 
 【项目说明】
-
+-----------------------------------
 	jeecg-p3-web               | 启动项目
 	jeecg-p3-biz-alipay-single | 支付窗平台插件项目
 
 	
 	
 【平台指南】
-
+-----------------------------------
 * 在线演示：[http://www.jeewx.com/jeewx/](http://www.jeewx.com/jeewx/)
 * [开发指南](http://blog.csdn.net/zhangdaiscott/article/details/53156710)
 
@@ -33,9 +33,7 @@ Jw-alipay （捷微支付窗平台）开源免费支付窗管理平台
     
 
 【搭建开发环境】
-
-	
-
+-----------------------------------
 	☆快捷启动方式：
 		第一步：创建Mysql数据库jw-alipay，采用UTF-8编码，执行数据库脚本
 		第二步：双击运行bin\run-tomcat7.bat，
