@@ -14,8 +14,11 @@ Jw-alipay （捷微支付窗平台）开源免费支付窗管理平台
 	
 【平台指南】
 
-* 在线演示：[http://www.jeewx.com/jeewx/](http://www.jeewx.com/jeewx/)
+* 体验账号（手机支付宝扫一扫关注）
+![github](http://img.blog.csdn.net/20161122135138088?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQv/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/Center "jeecg")
 * [开发指南](http://blog.csdn.net/zhangdaiscott/article/details/53156710)
+* 在线演示：[http://www.jeewx.com/jeewx/](http://www.jeewx.com/jeewx/)
+* Maven依赖下载慢解决方案 => [享受一下mvn时飞的感觉，配置阿里云maven镜像](http://www.jeecg.org/forum.php?mod=viewthread&tid=3949)
 
 
 【平台基础功能】
@@ -59,3 +62,9 @@ Jw-alipay （捷微支付窗平台）开源免费支付窗管理平台
 ==========
 * QQ交流群: 495450056
 * 技术论坛：[www.jeecg.org](http://www.jeecg.org)
+
+
+系统截图
+==========
+![github](http://dl2.iteye.com/upload/attachment/0121/3234/e4decd42-190b-3fc1-8f6a-ca15e07d052e.png "jeecg")
+![github](http://dl2.iteye.com/upload/attachment/0121/3232/2c78cdaf-5b4d-30e6-b879-8881e59a5520.png "jeecg")
