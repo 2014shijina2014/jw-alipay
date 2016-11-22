@@ -15,6 +15,7 @@ Jw-alipay （捷微支付窗平台）开源免费支付窗管理平台
 【平台指南】
 
 * 体验账号（手机支付宝扫一扫关注）
+
 ![github](http://img.blog.csdn.net/20161122135138088?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQv/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/Center "jeecg")
 * [开发指南](http://blog.csdn.net/zhangdaiscott/article/details/53156710)
 * 在线演示：[http://www.jeewx.com/jeewx/](http://www.jeewx.com/jeewx/)
