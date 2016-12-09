@@ -25,8 +25,8 @@ import com.jeecg.alipay.core.service.AlipayCoreService;
 import com.jeecg.alipay.core.util.LogUtil;
 import com.jeecg.alipay.util.RequestUtil;
 
-@Controller
-@RequestMapping("/gateway")
+//@Controller
+//@RequestMapping("/gateway")
 public class AlipayServiceWindowController extends BaseController{
 	private static final Logger logger = LoggerFactory.getLogger(AlipayServiceWindowController.class);
 	
@@ -106,10 +106,12 @@ public class AlipayServiceWindowController extends BaseController{
      * @return
      */
     private void verifySign(Map<String, String> params) throws AlipayApiException {
-//        if (!AlipaySignature.rsaCheckV2(params, AlipayServiceEnvConstants.ALIPAY_PUBLIC_KEY,
-//            AlipayServiceEnvConstants.SIGN_CHARSET)) {
-//            throw new AlipayApiException("verify sign fail.");
-//        }
+
+        if (!AlipaySignature.rsaCheckV2(params, AlipayServiceEnvConstants.ALIPAY_PUBLIC_KEY,
+            AlipayServiceEnvConstants.SIGN_CHARSET)) {
+
+            throw new AlipayApiException("verify sign fail.");
+        }
     }
 
 }

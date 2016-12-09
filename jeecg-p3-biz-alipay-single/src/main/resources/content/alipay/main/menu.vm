@@ -39,13 +39,18 @@
 		             <ul>
 		             	<li><a href="javascript:loadContent('$!{basePath}/alipay/alipayReceivetext.do?list')">用户消息</a></li>
 						<li><a href="javascript:loadContent('$!{basePath}/alipay/alipayGzuserinfo.do?list')">关注用户</a></li>
+						<li><a href="javascript:loadContent('$!{basePath}/alipay/groupMsg.do?toGroupMsgSend')">消息群发</a></li>
+						<li><a href="javascript:loadContent('$!{basePath}/alipay/alipayMessagelog.do?list')">群发消息记录</a></li>
+		              <!--
+						<li><a href="javascript:loadContent('$!{basePath}/alipay/alipayGroup.do?list')">组织机构</a></li>
+						<li><a href="javascript:loadContent('$!{basePath}/alipay/alipayLocation.do?list')">用户地理位置</a></li>-->
 		            </ul>
 		        </div>
 		    </div>	
 		</div>
 		<div class="bs_border h85">
 			<p>JEECG 云应用开发平台</p>
-			<p>QQ 技术群 : 495450056</p>
+			<p>QQ 技术群 : 293658367</p>
 			<p>论坛  : www.jeecg.org</p>
 		</div>		
 </div>

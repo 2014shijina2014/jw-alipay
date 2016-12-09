@@ -28,6 +28,7 @@ import com.alipay.api.response.AlipayMobilePublicMenuUpdateResponse;
 import com.jeecg.alipay.account.dao.AlipayMenuDao;
 import com.jeecg.alipay.account.entity.AlipayMenu;
 import com.jeecg.alipay.account.service.AlipayAccountService;
+import com.jeecg.alipay.account.service.AlipayMenuService;
 import com.jeecg.alipay.api.base.JwMenuAPI;
 import com.jeecg.alipay.api.base.vo.menuVo.BizContent;
 import com.jeecg.alipay.api.base.vo.menuVo.Button;
@@ -60,6 +61,8 @@ public class AlipayMenuController extends BaseController{
   private AlipayNewstemplateDao alipayNewstemplateDao;
   @Autowired
   private AlipayAccountService alipayAccountService;
+  @Autowired
+  private AlipayMenuService menuService;
 	/**
 	  * 列表页面
 	  * @return
@@ -72,9 +75,12 @@ public class AlipayMenuController extends BaseController{
 			 	LOG.info(request, "alipayMenu back list");
 			 	VelocityContext velocityContext = new VelocityContext();
 			 	velocityContext.put("alipayMenu",query);
+//			 	---update---begin---author:chhenchuenpeng----date:20161114---for:给菜单数据重新排序------
 			 	//分页数据
-		 		MiniDaoPage<AlipayMenu> list =  alipayMenuDao.getAll(query,pageNo,pageSize);
-		 		velocityContext.put("pageInfos",SystemTools.convertPaginatedList(list));
+		 		//MiniDaoPage<AlipayMenu> list =  alipayMenuDao.getAll(query,pageNo,pageSize);
+		 		//velocityContext.put("pageInfos",SystemTools.convertPaginatedList(list));
+			 	velocityContext.put("pageInfos",menuService.queryAll());
+//			 	---update---end---author:chhenchuenpeng----date:20161114---for:给菜单数据重新排序------
 				String viewName = "alipay/account/alipayMenu-list.vm";
 				ViewVelocity.view(request,response,viewName,velocityContext);
 			} catch (Exception e) {
