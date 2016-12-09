@@ -78,6 +78,17 @@
 	</filter-mapping>
 	
 	
+	<!-- 支付窗消息接受器 -->
+	<servlet>
+		<servlet-name>gateway</servlet-name>
+		<servlet-class>com.jeecg.alipay.core.servlet.GatewayServlet</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>gateway</servlet-name>
+		<url-pattern>/gateway.do</url-pattern>
+	</servlet-mapping>
+	
 	<!-- session timeout -->
 	<session-config>
 		<session-timeout>30</session-timeout>

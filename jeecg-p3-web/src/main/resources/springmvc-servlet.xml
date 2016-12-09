@@ -17,6 +17,9 @@
     http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util-3.1.xsd
     ">
 
+	<!-- Spring组件获取工具类 -->
+	<bean class="org.jeecgframework.p3.core.utils.common.ApplicationContextUtil"/>
+	
     <!-- Spring组件扫描路径过滤 -->
     <context:component-scan base-package="com.jeecg.*" use-default-filters="false">
     	<context:include-filter expression="org.springframework.stereotype.Controller" type="annotation"/> 
