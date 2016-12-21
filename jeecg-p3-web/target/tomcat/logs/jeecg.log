@@ -1,5 +1,0 @@
-2016-11-17 15:39:14.481 [net.sf.ehcache.CacheManager@4ed0c14c] INFO  UpdateChecker - New update(s) found: 2.4.7 [http://www.terracotta.org/confluence/display/release/Release+Notes+Ehcache+Core+2.4]. Please check http://ehcache.org for the latest version.
-2016-11-17 15:39:16.660 [http-bio-80-exec-1] INFO  BaseController - [0:0:0:0:0:0:0:1]    -- /alipay/index  --  
-2016-11-17 15:39:16.981 [http-bio-80-exec-4] INFO  BaseController - [0:0:0:0:0:0:0:1]  back home
-2016-11-17 15:39:24.437 [http-bio-80-exec-9] INFO  BaseController - [0:0:0:0:0:0:0:1]    -- /alipay/index  --  
-2016-11-17 15:39:24.676 [http-bio-80-exec-7] INFO  BaseController - [0:0:0:0:0:0:0:1]  back home
